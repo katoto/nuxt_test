@@ -12,7 +12,9 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "nuxt": "^1.4.0"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
